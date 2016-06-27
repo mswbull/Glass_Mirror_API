@@ -1,0 +1,69 @@
+[13-Apr-2014 17:55:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mswbull/public_html/mirrorapi/mirror-client.php:95) in /home/mswbull/public_html/mirrorapi/oauth2callback.php on line 48
+[13-Apr-2014 17:58:20 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/mirror/v1/timeline?maxResults=3&key=AIzaSyBS8t3dUUlzT0Mt37STQ26b_PT2tDnDrrk: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/contrib/Google_MirrorService.php(323): Google_ServiceResource->__call('list', Array)
+#3 /home/mswbull/public_html/mirrorapi/index.php(142): Google_TimelineServiceResource->listTimeline(Array)
+#4 {main}
+  thrown in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php on line 66
+[13-Apr-2014 17:58:26 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/mirror/v1/timeline?maxResults=3&key=AIzaSyBS8t3dUUlzT0Mt37STQ26b_PT2tDnDrrk: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/contrib/Google_MirrorService.php(323): Google_ServiceResource->__call('list', Array)
+#3 /home/mswbull/public_html/mirrorapi/index.php(142): Google_TimelineServiceResource->listTimeline(Array)
+#4 {main}
+  thrown in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php on line 66
+[13-Apr-2014 17:58:35 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/mirror/v1/timeline?maxResults=3&key=AIzaSyBS8t3dUUlzT0Mt37STQ26b_PT2tDnDrrk: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/contrib/Google_MirrorService.php(323): Google_ServiceResource->__call('list', Array)
+#3 /home/mswbull/public_html/mirrorapi/index.php(142): Google_TimelineServiceResource->listTimeline(Array)
+#4 {main}
+  thrown in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php on line 66
+[13-Apr-2014 17:58:41 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/mirror/v1/timeline?maxResults=3&key=AIzaSyBS8t3dUUlzT0Mt37STQ26b_PT2tDnDrrk: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/contrib/Google_MirrorService.php(323): Google_ServiceResource->__call('list', Array)
+#3 /home/mswbull/public_html/mirrorapi/index.php(142): Google_TimelineServiceResource->listTimeline(Array)
+#4 {main}
+  thrown in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php on line 66
+[13-Apr-2014 17:59:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mswbull/public_html/mirrorapi/mirror-client.php:95) in /home/mswbull/public_html/mirrorapi/oauth2callback.php on line 48
+[13-Apr-2014 18:27:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mswbull/public_html/mirrorapi/mirror-client.php:95) in /home/mswbull/public_html/mirrorapi/oauth2callback.php on line 48
+[13-Apr-2014 18:27:55 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/mirror/v1/timeline?maxResults=3&key=AIzaSyDsK_qrJJIuonkMZWNMMjckVRyMF8a364g: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/contrib/Google_MirrorService.php(323): Google_ServiceResource->__call('list', Array)
+#3 /home/mswbull/public_html/mirrorapi/index.php(142): Google_TimelineServiceResource->listTimeline(Array)
+#4 {main}
+  thrown in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php on line 66
+[13-Apr-2014 18:28:00 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/mirror/v1/timeline?maxResults=3&key=AIzaSyDsK_qrJJIuonkMZWNMMjckVRyMF8a364g: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/contrib/Google_MirrorService.php(323): Google_ServiceResource->__call('list', Array)
+#3 /home/mswbull/public_html/mirrorapi/index.php(142): Google_TimelineServiceResource->listTimeline(Array)
+#4 {main}
+  thrown in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php on line 66
+[13-Apr-2014 18:28:07 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/mirror/v1/timeline?maxResults=3&key=AIzaSyDsK_qrJJIuonkMZWNMMjckVRyMF8a364g: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/contrib/Google_MirrorService.php(323): Google_ServiceResource->__call('list', Array)
+#3 /home/mswbull/public_html/mirrorapi/index.php(142): Google_TimelineServiceResource->listTimeline(Array)
+#4 {main}
+  thrown in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php on line 66
+[13-Apr-2014 18:28:18 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/mirror/v1/timeline?maxResults=3&key=AIzaSyDsK_qrJJIuonkMZWNMMjckVRyMF8a364g: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/mswbull/public_html/mirrorapi/google-api-php-client/src/contrib/Google_MirrorService.php(323): Google_ServiceResource->__call('list', Array)
+#3 /home/mswbull/public_html/mirrorapi/index.php(142): Google_TimelineServiceResource->listTimeline(Array)
+#4 {main}
+  thrown in /home/mswbull/public_html/mirrorapi/google-api-php-client/src/io/Google_REST.php on line 66
+[13-Apr-2014 18:28:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mswbull/public_html/mirrorapi/mirror-client.php:95) in /home/mswbull/public_html/mirrorapi/oauth2callback.php on line 48
+[13-Apr-2014 18:42:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mswbull/public_html/mirrorapi/mirror-client.php:95) in /home/mswbull/public_html/mirrorapi/oauth2callback.php on line 48
